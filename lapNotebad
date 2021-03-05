@@ -1,0 +1,11 @@
+// mutators 
+void generateStudentID( string std-id );
+void editStudentID( string re-std-id );
+void setStudentName( string std-name );
+void registerStudentOnADegree( char std-degree );
+void registerStudentGPA( float std-gpa );
+// accessors
+string getStudentID();
+string getStudentname();
+string getRegisteredDegree();
+string getRegisteredGPA();
